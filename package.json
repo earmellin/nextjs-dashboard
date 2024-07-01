@@ -5,6 +5,7 @@
     "dev": "next dev",
     "start": "next start"
   },
+  "prettier": "@vercel/style-guide/prettier",
   "dependencies": {
     "@heroicons/react": "^2.1.4",
     "@tailwindcss/forms": "^0.5.7",
@@ -15,6 +16,8 @@
     "next": "15.0.0-rc.0",
     "next-auth": "5.0.0-beta.19",
     "postcss": "8.4.38",
+    "prettier": "3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "react": "19.0.0-rc-f994737d14-20240522",
     "react-dom": "19.0.0-rc-f994737d14-20240522",
     "tailwindcss": "3.4.4",
@@ -26,7 +29,8 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "@vercel/style-guide": "^6.0.0"
   },
   "engines": {
     "node": ">=20.12.0"
